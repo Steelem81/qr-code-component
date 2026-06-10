@@ -11,15 +11,22 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
+    color: var(--slate-500);
 }
 
 h1 {
     font-weight: 700;
+    color: var(--slate-900);
+}
+
+.content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .qr-card {
